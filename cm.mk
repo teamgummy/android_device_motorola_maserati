@@ -1,8 +1,8 @@
 # Inherit device configuration for VZW Droid 4.
 $(call inherit-product, device/motorola/maserati/device_maserati.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common aokp stuff.
+$(call inherit-product, vendor/aokp/configs/common_phone.mk)
 
 # Inherit some common CM stuff.
 #$(call inherit-product, vendor/cm/config/gsm.mk)
@@ -18,7 +18,8 @@ PRODUCT_MODEL := XT894
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_SFX := vzw
 ANDROID_VERSION := 4.0.3_r1
-MOTOROLA_BUILD_ID := 6.5.1_167_DR4-1_M1-215
+#MOTOROLA_BUILD_ID := 6.5.1_167_DR4-1_M1-215
+MOTOROLA_BUILD_ID := IML74K
 MOTOROLA_SOFTWARE_VERSION := 6.13.215
 DEVELOPER_NAME := hashcode
 DEVELOPER_HOST := hashcode-unn
