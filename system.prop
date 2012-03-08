@@ -297,7 +297,7 @@ persist.radio.imsallowmtsms=1
 persist.radio.imsfwloglevel=3
 
 ro.rommanager.developerid=Hashcode
-ro.modversion=AOKP-maserati-build-27
+ro.modversion=AOKP-maserati-milestone-4
 
 # Custom Settings
 ro.default_usb_mode=2
