@@ -222,7 +222,7 @@ PRODUCT_COPY_FILES += \
 # Phone settings
 PRODUCT_COPY_FILES += \
     device/sample/etc/apns-conf_verizon.xml:system/etc/apns-conf.xml \
-    vendor/cm/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml \
+    device/motorolamaserati/prebuilt/etc/spn-conf.xml:system/etc/spn-conf.xml \
 
 
 # Graphics
@@ -270,6 +270,7 @@ $(call inherit-product, hardware/ti/wpan/ti-wpan-products.mk)
 #$(call inherit-product-if-exists, vendor/google/google-vendor.mk)
 $(call inherit-product-if-exists, vendor/verizon/maserati-verizon-vendor.mk)
 
+$(call inherit-product, vendor/miui/miui-vendor.mk)
 
 $(call inherit-product-if-exists, vendor/motorola/maserati/maserati-vendor.mk)
 
