@@ -112,8 +112,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     Camera \
-    Superuser \
-    su \
     Usb \
     DockAudio \
 
@@ -121,17 +119,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librs_jni \
     com.android.future.usb.accessory \
-    FileManager \
-    MusicFX \
     libjni_pinyinime 
 
 # WirelessTether
 PRODUCT_COPY_FILES += \
     device/motorola/maserati/prebuilt/app/wifi_tether_v3_1-beta11.apk:system/app/wifi_tether_v3_1-beta11.apk \
     device/motorola/maserati/prebuilt/lib/libwtnativetask.so:system/lib/libwtnativetask.so \
-    device/motorola/maserati/prebuilt/bin/bootsound:system/bin/bootsound \
-#    device/motorola/maserati/prebuilt/media/android_audio.mp3:system/media/android_audio.mp3 \
-#    device/motorola/maserati/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip \
     
 
 # Rootfs files
@@ -222,7 +215,6 @@ PRODUCT_COPY_FILES += \
 # Phone settings
 PRODUCT_COPY_FILES += \
     device/sample/etc/apns-conf_verizon.xml:system/etc/apns-conf.xml \
-    vendor/aokp/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip \
 
 #    vendor/cm/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml \
 
@@ -269,9 +261,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, hardware/ti/omap4xxx/omap4.mk)
 $(call inherit-product, hardware/ti/camera/camera.mk)
 $(call inherit-product, hardware/ti/wpan/ti-wpan-products.mk)
-#$(call inherit-product-if-exists, vendor/google/google-vendor.mk)
 $(call inherit-product-if-exists, vendor/verizon/maserati-verizon-vendor.mk)
-
 
 $(call inherit-product-if-exists, vendor/motorola/maserati/maserati-vendor.mk)
 
