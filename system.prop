@@ -296,9 +296,6 @@ persist.radio.imsregrequired=1
 persist.radio.imsallowmtsms=1
 persist.radio.imsfwloglevel=3
 
-ro.rommanager.developerid=Hashcode
-ro.modversion=Droid4-ICS-Alpha
-
 # Custom Settings
 ro.default_usb_mode=2
 ro.media.enc.aud.fileformat=3gp
