@@ -188,6 +188,7 @@ PRODUCT_COPY_FILES += \
     device/motorola/maserati/prebuilt/etc/vold.fstab:system/etc/vold.fstab \
     device/motorola/maserati/prebuilt/etc/wifi/tiwlan_ap.ini:system/etc/wifi/tiwlan_ap.ini \
     device/motorola/maserati/prebuilt/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
+    device/motorola/maserati/prebuilt/etc/spn-conf.xml:system/etc/spn-conf.xml \
     device/motorola/maserati/prebuilt/etc/hijack-boot.zip:system/etc/hijack-boot.zip \
     device/motorola/maserati/prebuilt/usr/idc/cpcap-key.idc:system/usr/idc/cpcap-key.idc \
     device/motorola/maserati/prebuilt/usr/idc/cy8c201xx.idc:system/usr/idc/cy8c201xx.idc \
@@ -222,7 +223,6 @@ PRODUCT_COPY_FILES += \
 # Phone settings
 PRODUCT_COPY_FILES += \
     device/sample/etc/apns-conf_verizon.xml:system/etc/apns-conf.xml \
-    vendor/cm/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml \
 
 
 # Graphics
